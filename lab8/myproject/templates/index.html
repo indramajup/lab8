@@ -1,0 +1,81 @@
+{% extends "base.html"%}
+
+{% block title %}
+<title>หน้าแรกของเว็บไซต์</title>
+    {% endblock %}
+
+    {% block content %}
+    <!-- Section: สิทธิประกันสังคม -->
+<section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">สิทธิประกันสังคม</h2>
+      <div class="row mb-4 align-items-center">
+        <div class="col-md-5">
+          <img src="https://picsum.photos/400/300?random=3" alt="สิทธิประกันสังคม" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-7">
+          <p>
+            ผู้ประกันตนตามมาตรา 33, 39 และ 40 จะได้รับสิทธิประโยชน์ต่าง ๆ จากกองทุนประกันสังคม
+            ไม่ว่าจะเป็นเรื่องสุขภาพ ค่าทดแทนรายได้ หรือสวัสดิการในช่วงชีวิตสำคัญต่าง ๆ
+          </p>
+          <p>
+            ข้อมูลด้านล่างคือตารางสรุปสิทธิประโยชน์ที่ผู้ประกันตนได้รับตามประเภท:
+          </p>
+        </div>
+      </div>
+  
+      <!-- ตารางสิทธิประกันสังคม -->
+      <div class="table-responsive">
+        <table class="table table-bordered table-hover bg-white">
+          <thead class="table-primary text-center">
+            <tr>
+              <th scope="col">ประเภทสิทธิ</th>
+              <th scope="col">มาตรา 33</th>
+              <th scope="col">มาตรา 39</th>
+              <th scope="col">มาตรา 40</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>เจ็บป่วย / รักษาพยาบาล</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">❌</td>
+            </tr>
+            <tr>
+              <td>คลอดบุตร</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">❌</td>
+            </tr>
+            <tr>
+              <td>ชราภาพ</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️</td>
+            </tr>
+            <tr>
+              <td>ทุพพลภาพ</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️ (บางแผน)</td>
+            </tr>
+            <tr>
+              <td>เสียชีวิต</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️</td>
+            </tr>
+            <tr>
+              <td>ว่างงาน</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">✔️</td>
+              <td class="text-center">❌</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  
+        {% endblock%}
